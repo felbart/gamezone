@@ -34,7 +34,11 @@ export default {
           '900': '#482a88',
           '950': '#2c195c',
         },
-      }
+      },
+      backgroundImage: {
+        'hero-1': "url('./assets/img/bg-hero-1-light.png')",
+        'hero-1-dark': "url('./assets/img/bg-hero-1-dark.png')",
+      },
     },
     container: {
       center: true,

@@ -1,23 +1,13 @@
-import Swiper from "swiper"
-import { SwiperSlide } from "swiper/react"
-
 const Hero = () => {
   return (
-  <>
-    <Swiper>
-    <SwiperSlide>
-      <div id="hero" className="h-[600px] bg-gradient-to-r from-slate-50 to-primary-100 dark:from-slate-950 dark:to-primary-950 flex items-center justify-center">
-        <div className="container flex justify-between items-center">
-          <div className="text-slate-800 dark:text-slate-50 w-6/12 flex flex-col gap-4">
-            <span className="text-primary-400 uppercase tracking-widest font-semibold">LANÇAMENTO</span>
-            <h1 className="text-6xl font-extrabold">Ghost of Tsushima Director’s cut</h1>
-            <p className="text-xl text-slate-600 dark:text-slate-400">Conheça a experiência expandida de Ghost of Tsushima nessa Versão do Diretor.</p>
+  <section id="hero" className="h-screen flex items-center justify-center py-32">
+        <div className="container">
+          <div className="w-full md:w-6/12 flex flex-col items-center justify-center md:items-start gap-4">
+            <h1 className="text-5xl font-bold text-gray-900 dark:text-gray-100">Ghost of Tsushima Director’s cut</h1>
+            <span className="text-xl text-gray-600 dark:text-gray-400">Conheça a experiência expandida de Ghost of Tsushima nessa Versão do Diretor.</span>
           </div>
         </div>
-      </div>
-    </SwiperSlide>
-    </Swiper>
-  </>
+  </section>
   
   )
 }
